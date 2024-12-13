@@ -28,9 +28,29 @@ Este projeto implementa uma aplicação web SPA (**Single Page Application**) pa
    git clone https://github.com/usuario/projeto-api.git
    cd projeto-api
 
- 2.📄 Estrutura do Código
-   ``` API:
-    app.py: Arquivo principal contendo as rotas da aplicação.
-    models.py: Modelos da tabela de usuários e conexão com o SQLite.
-    config.py: Configurações da aplicação.
-    requirements.txt: Dependências do projeto.
+###  Estrutura do Código
+    API:
+    ├── app.py: Arquivo principal contendo as rotas da aplicação.
+    ├── models.py: Modelos da tabela de usuários e conexão com o SQLite.
+    ├── config.py: Configurações da aplicação.
+    └── requirements.txt: Dependências do projeto.
+
+### Instalar Dependências
+    pip install Flask Flask-SQLAlchemy
+
+### No terminal Bash, execute:
+    Usar o Script de Ativação no Bash
+    source **activate
+    Isso ativará o ambiente virtual no Bash.
+    O (venv) no início da linha indica que o ambiente virtual foi ativado.
+
+### Verifique os Arquivos
+    ls
+    **Certifique-se de que os arquivos do projeto (app.py, models.py, etc.) estão no diretório.
+
+### Rodar o Projeto
+    Inicie o servidor Flask:
+    **python app.py
+    Se tudo estiver configurado corretamente, você verá uma mensagem como:
+
+    
