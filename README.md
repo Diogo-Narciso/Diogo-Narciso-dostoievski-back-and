@@ -27,3 +27,10 @@ Este projeto implementa uma aplicação web SPA (**Single Page Application**) pa
    ```bash
    git clone https://github.com/usuario/projeto-api.git
    cd projeto-api
+
+ 2.📄 Estrutura do Código
+   ``` API:
+    app.py: Arquivo principal contendo as rotas da aplicação.
+    models.py: Modelos da tabela de usuários e conexão com o SQLite.
+    config.py: Configurações da aplicação.
+    requirements.txt: Dependências do projeto.
